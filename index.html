@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--Nav bar-->
+    <nav id="navb">
+        <div class="logo" id="logo">
+            <h2><span class="clr">Shashank </span><span>Patgar</span></h2>
+        </div>
+        <div class="navbar" id="navbar">
+           
+            
+            <ul id="nav_list">
+                <li class="active"><a href="#about">About</a></li>
+                <li class="active"><a href="#skill">Skills</a></li>
+                <li class="active"><a href="#projects">Projects</a></li>
+                <li class="active"><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <div id="hamburger">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+            <div id="hamburgerN">
+                <ion-icon name="filter-outline"></ion-icon>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero section-->
+    <section id="hero">
+        <!--left side-->
+        <div class="leftside">
+            <div class="prof-pic">
+                <img src="profile.png" alt="">
+            </div>
+        </div>
+        <!--Right side-->
+        <div class="rightside">
+            <h3>Hello, I'm</h3>
+            <h1>Shashank Patgar</h1>
+            <div class="typewriter-container">
+                <span class="static-text">And I am </span>
+                <span id="typewriter"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p>Hii I'm Shashank Patgar, a passionate front end developer specializing in
+                translating design concepts into seamless and interactive web experiences 
+                using HTML, CSS, Javascript.
+            </p>
+            
+            <div class="social-box">
+                <div class="box"><a href="https://github.com/Shash2i1" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></div>
+                <div class="box"><a href="https://www.linkedin.com/in/shashank-patgar-a00301268/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></div>
+                <div class="box"><a href="https://www.instagram.com/shashank.patgar/?hl=en" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a></div>
+                <div class="box"><a href="https://www.facebook.com/shashank.patgar.58/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon></a></div>
+            </div>
+
+            <!--Download cv button-->
+            <button id="cvdownload" class="box">Download Resume</button>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="about">
+        <div class="about_tittle">
+            <h1 data-aos="fade-left">About <span class="clr">me</span></h1>
+        </div>
+        <div class="about_main">
+            <div class="about_left">
+                <ul class="left-bar">
+                    <li data-aos="fade-up"><span class="clr">Name</span> <span cla>: Shashank Beerappa Patgar</span></li>
+                    <li data-aos="fade-up"><span class="clr">Date Of Birth</span> <span>: 05/01/2003</span></li>
+                    <li data-aos="fade-up"><span class="clr">Education</span> <span>: Bachelor Of Engineering in Electronics And Communication</span></li>
+                    <li data-aos="fade-up"><span class="clr">College</span><span>: Anjuman Institute Of Technology And Management</span></li>
+                </ul>
+            </div>
+
+            <div class="about_right">
+                <div class="outer-box"></div>
+                <div data-aos="fade-up" class="inner-box">
+                    <img src="about.png" alt="" data-aos="fade-left">
+                </div>
+            </div>
+        </div>
+        <div class="cvsec">
+            <button class="cvdownload box">Download CV</button>
+        </div>
+    </section>
+
+    <!--Skills section-->
+    <section id="skill" class="skill">
+        <div class="skill-tittle">
+            <h1 data-aos="fade-left">My <span class="clr">Skills</span></h1>
+        </div>
+        <div class="skill-main">
+            <div class="skill-sec" >
+                <div class="skill-domain">
+                    <h3>Web Devlopement</h3>
+                </div>
+                <ul class="skill-repr" data-aos="fade-right">
+                    <li>
+                        <div class="skill-name">
+                            <p>HTML & CSS</p>
+                            <p>90%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="html_css">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>Javascript</p>
+                            <p>80%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="javascript"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>React</p>
+                            <p>60%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="react"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>MySQL</p>
+                            <p>86%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="mysql"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>PHP</p>
+                            <p>80%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="php"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-sec">
+                <div class="skill-domain">
+                    <h3>Software Developement</h3>
+                </div>
+                <ul class="skill-repr" data-aos="fade-up">
+                    <li>
+                        <div class="skill-name">
+                            <p>C & C++</p>
+                            <p>80%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="mysql">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>Python</p>
+                            <p>80%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="javascript"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>Java</p>
+                            <p>60%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="react"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>AI</p>
+                            <p>86%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="mysql"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>PHP</p>
+                            <p>80%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="php"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="skill-sec">
+                <div class="skill-domain">
+                    <h3>Electronics</h3>
+                </div>
+                <ul class="skill-repr" data-aos="fade-left">
+                    <li>
+                        <div class="skill-name">
+                            <p>VLSI Design</p>
+                            <p>90%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="html_css">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>Embedded System</p>
+                            <p>80%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="javascript"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>IoT</p>
+                            <p>60%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="react"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>MatLab</p>
+                            <p>86%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="mysql"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">
+                            <p>LabVIEW</p>
+                            <p>80%</p> 
+                        </div>
+                        <div class="skill-pic-box">
+                            <div class="inner-percent" id="php"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          AOS.init({
+            duration: 900, // Animation duration
+            once: false    // Whether the animation should happen only once or every time
+          });
+        });
+      </script>
+</body>
+</html>
